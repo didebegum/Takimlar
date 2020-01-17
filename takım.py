@@ -13,9 +13,7 @@ takimSayi = int(takim )
 
 for i in range(takimSayi +1 ):
     for a in range(kisiSayi):
-
-        if len(isimlerDizi) != 0:
-            
+        if len(isimlerDizi) != 0:  
             grup_ind= random.randint(0, len(isimlerDizi) -1)
             grup = isimlerDizi[grup_ind ]
             print (grup )
