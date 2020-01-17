@@ -12,7 +12,6 @@ takim = ogrenciSayi / kisiSayi
 takimSayi = int(takim )
 
 for i in range(takimSayi +1 ):
-
     for a in range(kisiSayi):
 
         if len(isimlerDizi) != 0:
@@ -23,4 +22,3 @@ for i in range(takimSayi +1 ):
             del isimlerDizi[grup_ind ]
         
     print ("\n")
-     
